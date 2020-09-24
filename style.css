@@ -23,6 +23,47 @@
     box-shadow: none !important;
 }
 
+@media (min-width: 765px) and (max-width:1023px) {
+    .button {
+        height: 25px;
+        width: 25px;
+        font-size: 14px !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+}
+
+@media (min-width: 666px) and (max-width:764px) {
+    .button {
+        height: 20px;
+        width: 20px;
+        font-size: 10px !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+}
+
+@media (min-width: 540px) and (max-width:665px) {
+    .button {
+        height: 17px;
+        width: 17px;
+        font-size: 6px !important;
+        text-align: center !important;
+        align-items: center !important;
+    }
+}
+
+@media (max-width:539px) {
+    .button {
+        height: 15px;
+        width: 15px;
+        font-size: 5px !important;
+        text-align: center !important;
+        align-items: center !important;
+        margin: auto !important;
+    }
+}
+
 .bg-karen {
     background-image: url("assets/images/karin-web.jpg");
     background-repeat: no-repeat;
@@ -228,15 +269,17 @@ body::-webkit-scrollbar-corner {
 
 h2,
 h3,
-h4,
-h5,
-h6 {
+h4 {
     font-weight: 540 !important;
     font-size: x-large !important;
 }
 
 h4 {
     text-transform: none !important;
+}
+
+h5 {
+    font-size: 1rem !important;
 }
 
 .page-title {
@@ -394,7 +437,40 @@ h4 {
         height: 200% !important;
     }
     .page-title {
-        font-size: 1rem;
+        font-size: 1.4rem;
         font-weight: bold;
     }
+}
+
+@media (min-width: 320px) and (max-width:425px) {
+    .schedule-box h4 {
+        font-size: 1.1rem !important;
+    }
+    .schedule-box b {
+        font-size: 0.8rem !important;
+    }
+    .schedule-box h5 {
+        font-size: 0.8rem !important;
+        font-weight: bold !important;
+    }
+    .schedule-box p {
+        font-size: 0.75rem !important;
+    }
+    .schedule-box h6 {
+        font-size: 0.9rem !important;
+        font-weight: bold !important;
+        color: #203C3D !important;
+    }
+    .schedule-box h8 {
+        font-size: 0.85rem !important;
+    }
+}
+
+h6 {
+    color: #203C3D !important;
+    font-weight: bold !important;
+}
+
+h5 {
+    font-weight: bold !important;
 }
