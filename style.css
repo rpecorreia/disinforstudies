@@ -55,9 +55,9 @@
 
 @media (max-width:539px) {
     .button {
-        height: 15px;
-        width: 15px;
-        font-size: 5px !important;
+        height: 20px;
+        width: 20px;
+        font-size: 6px !important;
         text-align: center !important;
         align-items: center !important;
         margin: auto !important;
