@@ -391,7 +391,6 @@ h5 {
 }
 
 .schedule-box::before {
-    content: '';
     position: absolute;
     top: 5px;
     right: 5px;
